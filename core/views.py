@@ -22,5 +22,3 @@ def signup(request):
         form = SignUpForm()
     return render(request, 'core/signup.html', {'form': form})
 
-def login(request):
-    return
